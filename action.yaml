@@ -1,0 +1,26 @@
+name: "Ruleset Trigger"
+description: "Disable or enable ruleset in a GitHub repository"
+branding:
+  icon: "book-open"
+  color: "black"
+inputs:
+  token:
+    description: "GitHub token"
+    required: true
+  repository:
+    description: "Repository name"
+    required: false
+  ruleset_id:
+    description: "Ruleset ID"
+    required: true
+  enforcement:
+    description: "Enforcement"
+    required: false
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.token }}
+    - ${{ inputs.repository }}
+    - ${{ inputs.ruleset_id }}
+    - ${{ inputs.enforcement }}
