@@ -14,6 +14,7 @@ This utility simplifies the process of managing GitHub repository ruleset config
 
 Add the following step to your GitHub workflow:
 
+```yml
 - name: Enable ruleset in repository
   uses: solairen/ruleset-trigger@main
   with:
@@ -22,6 +23,7 @@ Add the following step to your GitHub workflow:
     # Optional parameters
     repository: 'owner/repo'
     enforcement: 'active'
+```
 
 ### Inputs
 
