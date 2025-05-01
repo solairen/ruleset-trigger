@@ -26,4 +26,4 @@ jobs:
           generate_release_notes: true
           draft: false
           prerelease: false
-          token: ${{ secrets.GHCR_PASSWORD}}
+          token: ${{ secrets.GHCR_PASSWORD }}
