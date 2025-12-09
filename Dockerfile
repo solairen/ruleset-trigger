@@ -1,4 +1,4 @@
-FROM python:3.14.1-slim-bookworm
+FROM python:3.15.0a2-slim-bookworm
 
 LABEL org.opencontainers.image.source="https://github.com/solairen/ruleset-trigger"
 LABEL org.opencontainers.image.description="Change ruleset on GitHub"
