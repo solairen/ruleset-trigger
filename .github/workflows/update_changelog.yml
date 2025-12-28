@@ -12,8 +12,8 @@ jobs:
     runs-on: ubuntu-24.04
 
     steps:
-    - name: Changelog Update 📄
-      uses: bcsizmadia/changelog_update@main
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        commit_message: "🎉 Update changelog for new release"
+      - name: Changelog Update 📄
+        uses: bcsizmadia/changelog_update@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: "🎉 Update changelog for new release"
