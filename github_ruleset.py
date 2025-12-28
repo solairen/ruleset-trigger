@@ -24,7 +24,7 @@ data = {
 
 url = f"https://api.github.com/repos/{repository}/rulesets/{ruleset_id}"
 
-response = requests.put(url, headers=headers, json=data)
+response = requests.patch(url, headers=headers, json=data)
 
 if response.status_code == 200:
   print(f"Status code: {response.status_code}")
