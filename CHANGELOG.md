@@ -45,3 +45,11 @@
 * @dependabot[bot] made their first contribution in https://github.com/solairen/ruleset-trigger/pull/4
 
 **Full Changelog**: https://github.com/solairen/ruleset-trigger/compare/1.0.1...1.0.2
+
+## 1.0.3
+
+## What's Changed
+* GH-24 [Task]: Revert to PUT by @solairen in https://github.com/solairen/ruleset-trigger/pull/25
+
+
+**Full Changelog**: https://github.com/solairen/ruleset-trigger/compare/1.0.2...1.0.3
