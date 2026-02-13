@@ -62,3 +62,12 @@
 
 
 **Full Changelog**: https://github.com/solairen/ruleset-trigger/compare/1.0.3...1.0.4
+
+## 1.0.5
+
+## What's Changed
+* Bump python from 3.15.0a5-slim-bookworm to 3.15.0a6-slim-bookworm in /docker by @dependabot[bot] in https://github.com/solairen/ruleset-trigger/pull/29
+* Bump python from 3.15.0a5-slim-bookworm to 3.15.0a6-slim-bookworm by @dependabot[bot] in https://github.com/solairen/ruleset-trigger/pull/28
+
+
+**Full Changelog**: https://github.com/solairen/ruleset-trigger/compare/1.0.4...1.0.5
